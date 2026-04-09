@@ -52,16 +52,16 @@ INSERT INTO sales_data VALUES
 ('2025-02-10', 'Monitor', 'West', 1, 320.00, 'John', 320.00);
 
 
-SELECT * distinct Product,Salesperson, Region from Sales where Region IN 'West','South';
+SELECT * distinct Product,Salesperson, Region from Sales where Region IN 'West','South';---IN operator
 
-select * from sales_data where Quantity between 12 and  16;
+select * from sales_data where Quantity between 12 and  16;--- between operator
 
-select * from sales_data where Quantity not between 12 and  16; 
+select * from sales_data where Quantity not between 12 and  16; --- between operator
 
-select * from sales_data where Product like 'M%';
+select * from sales_data where Product like 'M%';---like operator
 
-select * from sales_data where Product like '%r';
+select * from sales_data where Product like '%r';---like operator
 
-select * from sales_data where Product like '_o%';
+select * from sales_data where Product like '_o%';---like operator
 
-select * from sales_data where Product like '____'; 
+select * from sales_data where Product like '____'; ---like operator
